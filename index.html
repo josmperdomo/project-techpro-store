@@ -1,196 +1,823 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Audifono alta calidad" />
-    <meta name="author" content="Jose Manuel Perdomo" />
-    <meta
-      name="keywords"
-      content="sonido,audifonos,audio,musica,estereo,video"
-    />
-    <title>TechPRO Audifonos</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Playfair+Display:wght@700&family=Roboto:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/normalize.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="contenedor contenido-header">
-        <div class="imagen-header">
-          <picture>
-            <source
-              sizes="1920w"
-              srcset="assets/img/header.avif 1920w"
-              type="image/avif"
-              width="1000"
-              height="600"
-            /> 
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechPRO | Audífonos Inalámbricos de Alta Fidelidad & Sonido Studio</title>
+  <meta name="description" content="Descubre los audífonos TechPRO con cancelación activa de ruido híbrida de -42dB, transductores de berilio de 40mm, audio de alta resolución LDAC y hasta 45 horas de batería." />
+  <meta name="author" content="Jose Manuel Perdomo" />
+  <meta name="theme-color" content="#6366f1" />
 
-            <source
-              sizes="1920w"
-              srcset="assets/img/header.webp 1920w"
-              type="image/webp"
-              width="1000"
-              height="600"
-            />
+  <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet" />
 
-            <source
-              sizes="1920w"
-              srcset="assets/img/header.png 1920w"
-              type="image/jpeg"
-              width="1000"
-              height="600"
-            />
+  <!-- Stylesheets with versioning -->
+  <link rel="stylesheet" href="assets/css/normalize.css?v=3.0.0" />
+  <link rel="stylesheet" href="assets/css/style.css?v=3.0.0" />
+</head>
+<body>
 
-            <img
-              decoding="async"
-              src="assets/img/header.png"
-              lazyalt="imagen"
-              alt="Imagen"
-              width="1000"
-              height="600"
-            />
-          </picture>
-        </div>
-        <!--close .imagen-header-->
-
-        <div class="texto-header">
-          <p class="tagline-producto">Sonido Profesional</p>
-          <h1 class="nombre-producto degradado-verde">TechPRO</h1>
-          <p class="descripcion-producto">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia,
-            porro consectetur, odio quam enim aliquam id esse nulla soluta saepe
-            possimus quis. Veniam ipsa saepe amet cumque.
-          </p>
-          <p class="precio-producto">Desde <span>$299</span></p>
-        </div>
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement">
+    <div class="container top-bar-inner">
+      <div class="top-badge">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polygon points="10 8 16 12 10 16 10 8"></polygon>
+        </svg>
+        <span>Lanzamiento Serie 2026 • Audio Hi-Res 96kHz/24-Bit Certificado</span>
       </div>
-    </header>
-
-    <section class="contenedor">
-      <div class="iconos">
-        <div class="icono">
-          <img
-            src="assets/img/icono-sonido.svg"
-            alt="icono"
-            width="1000"
-            height="600"
-          />
-          <h2 class="h2t">Gran Sonido</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-            consequatur nisi eveniet illum nemo explicabo consectetur dolorem
-            quaerat sapiente modi.
-          </p>
-        </div>
-
-        <div class="icono">
-          <img
-            src="assets/img/icono-garantia.svg"
-            alt="icono"
-            width="1000"
-            height="600"
-          />
-          <h2 class="h2t">Garantia de por vida</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-            consequatur nisi eveniet illum nemo explicabo consectetur dolorem
-            quaerat sapiente modi.
-          </p>
-        </div>
-
-        <div class="icono">
-          <img
-            src="assets/img/icono-bateria.svg"
-            alt="icono"
-            width="1000"
-            height="600"
-          />
-          <h2 class="h2t">+20 Horas de Bateria</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-            consequatur nisi eveniet illum nemo explicabo consectetur dolorem
-            quaerat sapiente modi.
-          </p>
-        </div>
+      <div class="top-features">
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          Envío Express Gratuito Global
+        </span>
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          30 Días de Prueba Sin Compromiso
+        </span>
       </div>
-    </section>  
+    </div>
+  </div>
 
-    <section class="sobre-tech">
-      <div class="contenedor sobre-tech-grid">
-        <div class="texto-sobre-tech">
-          <h2>Sobre los <span class="footer-techpro">TechPRO</span></h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            itaque ea quasi quae esse doloribus distinctio? Eveniet molestias
-            optio, totam voluptate impedit dolorem sunt libero facilis?
-          </p>
+  <!-- Sticky Main Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" aria-label="TechPRO Inicio">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+          </svg>
         </div>
+        <div class="brand-text">
+          <span class="brand-title">Tech<span>PRO</span></span>
+          <span class="brand-sub">Audio Acoustics</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav">
+        <a href="#hero" class="nav-link">Inicio</a>
+        <a href="#caracteristicas" class="nav-link">Innovación</a>
+        <a href="#sound-lab" class="nav-link">Sound Lab</a>
+        <a href="#modelos" class="nav-link">Modelos</a>
+        <a href="#comparativa" class="nav-link">Comparativa</a>
+        <a href="#comunidad" class="nav-link">Club VIP</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button id="cartBtn" class="cart-btn-trigger" aria-label="Ver Carrito de Compras">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span id="cartCount" class="cart-badge" style="display: none;">0</span>
+        </button>
+
+        <a href="#modelos" class="btn-primary">
+          <span>Comprar TechPRO</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <button id="menuToggle" class="menu-toggle" aria-label="Abrir Menú Móvil" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
       </div>
-    </section>
+    </div>
+  </header>
 
-    <main class="contenedor modelos">
-      <h2 class="text-center degradado-verde header-modelos">
-        Elije tus TechPRO
-      </h2>
-      <div class="listado-modelos">
-        <div class="modelo modelo-x">
-          <h3>TechPRO X</h3>
-          <p class="precio">$299</p>
+  <!-- Mobile Navigation Drawer -->
+  <aside id="navDrawer" class="nav-drawer" aria-label="Menú Móvil">
+    <div class="drawer-header">
+      <div class="brand-logo">
+        <div class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+          </svg>
         </div>
-
-        <div class="modelo modelo-y">
-          <h3>TechPRO Y</h3>
-          <p class="precio">$398</p>
-        </div>
-
-        <div class="modelo modelo-z">
-          <h3>TechPRO Z</h3>
-          <p class="precio">$499</p>
-        </div>
+        <span class="brand-title">Tech<span>PRO</span></span>
       </div>
-    </main>
+      <button class="drawer-close" onclick="document.getElementById('navDrawer').classList.remove('active'); document.body.style.overflow='';" aria-label="Cerrar menú">&times;</button>
+    </div>
 
-    <section class="newsletter">
-      <div class="contenido-newsletter contenedor">
-        <div class="texto-newsletter">
-          <h3>Recibe Actualizaciones</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-            tempore corporis cum totam vitae, magnam hic laudantium molestiae
-            nobis nulla inventore recusandae quasi quod illum necessitatibus
-            nihil eius quos similique!
+    <nav class="drawer-nav">
+      <a href="#hero" class="drawer-link">Inicio</a>
+      <a href="#caracteristicas" class="drawer-link">Innovación Acústica</a>
+      <a href="#sound-lab" class="drawer-link">Sound Lab Interactivo</a>
+      <a href="#modelos" class="drawer-link">Catálogo de Modelos</a>
+      <a href="#comparativa" class="drawer-link">Tabla Comparativa</a>
+      <a href="#comunidad" class="drawer-link">Club VIP & Newsletter</a>
+    </nav>
+
+    <div class="drawer-footer">
+      <a href="#modelos" class="btn-primary" style="width: 100%; justify-content: center;">
+        <span>Comprar TechPRO</span>
+      </a>
+      <p style="font-size: 1.3rem; color: var(--text-muted); text-align: center;">Garantía de por vida y soporte técnico audiófilo.</p>
+    </div>
+  </aside>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Hero Text -->
+        <div class="hero-content">
+          <div class="hero-tag">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            <span>Ingeniería Acústica de Precisión</span>
+          </div>
+
+          <h1 class="hero-title">
+            Sonido Puro.<br />
+            <span>Sin Distorsión.</span>
+          </h1>
+
+          <p class="hero-desc">
+            Redescubre cada capa de tu música con transductores de berilio de 40mm, cancelación híbrida activa de ruido de -42dB y sonido espacial inmersivo calibrado por ingenieros de masterización.
           </p>
 
-          <form class="formulario">
-            <div class="input">
-              <input type="text" placeholder="Tu Email" />
+          <div class="hero-price-wrap">
+            <span class="hero-price-label">Desde</span>
+            <span class="hero-price">$249</span>
+            <span class="hero-price-badge">Garantía de por Vida</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#modelos" class="btn-primary">
+              <span>Explorar Modelos</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#sound-lab" class="btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span>Probar Sound Lab</span>
+            </a>
+          </div>
+
+          <!-- Color Customizer Box -->
+          <div class="color-picker-box">
+            <span class="color-picker-label">Acabado:</span>
+            <span id="heroColorName" style="font-weight: 700; color: var(--text-primary); font-size: 1.35rem;">Titanium Black Edition</span>
+            <div class="color-dots">
+              <div class="color-dot obsidian active" data-color="obsidian" title="Titanium Black Edition"></div>
+              <div class="color-dot platinum" data-color="platinum" title="Arctic Silver Frost"></div>
+              <div class="color-dot cobalt" data-color="cobalt" title="Cyber Violet Edition"></div>
             </div>
+          </div>
+        </div>
 
-            <input type="submit" value="Inscribirme" />
-          </form>
+        <!-- Hero Showcase Media -->
+        <div class="hero-media-wrap">
+          <div class="hero-media-halo"></div>
+          <img id="heroProductImg" src="assets/img/productobig.png" alt="TechPRO Auriculares Over-Ear Premium" class="hero-product-img" />
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-      <div class="footer">
-        <p>
-          Todos los derechos reservados
-          <span class="footer-techpro">TechPRO</span> 2022 &copy;
-          <span class="footer-techpro2"
-            >Desarrollado por Jose Manuel Perdomo</span
-          >
+  <!-- Specs Engineering Strip -->
+  <section class="specs-strip">
+    <div class="container">
+      <div class="specs-grid">
+        <div class="spec-strip-item">
+          <div class="spec-strip-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 12h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H2v-6zM20 12h2v6h-2a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2zM4 12a8 8 0 0 1 16 0"></path>
+            </svg>
+          </div>
+          <div>
+            <div class="spec-strip-val">5Hz – 45kHz</div>
+            <div class="spec-strip-label">Rango Frecuencia Hi-Res</div>
+          </div>
+        </div>
+
+        <div class="spec-strip-item">
+          <div class="spec-strip-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <div>
+            <div class="spec-strip-val">-42 dB</div>
+            <div class="spec-strip-label">Cancelación Híbrida ANC</div>
+          </div>
+        </div>
+
+        <div class="spec-strip-item">
+          <div class="spec-strip-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="1" y="6" width="18" height="12" rx="2"></rect>
+              <line x1="23" y1="13" x2="23" y2="11"></line>
+            </svg>
+          </div>
+          <div>
+            <div class="spec-strip-val">45+ Horas</div>
+            <div class="spec-strip-label">Batería con ANC Activo</div>
+          </div>
+        </div>
+
+        <div class="spec-strip-item">
+          <div class="spec-strip-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <div>
+            <div class="spec-strip-val">15 min = 8h</div>
+            <div class="spec-strip-label">Carga Rápida Ultrarrápida</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Innovation Pillars Section -->
+  <section id="caracteristicas" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <span>Pillars of Sound Excellence</span>
+        </div>
+        <h2 class="section-title">Ingeniería Acústica sin Compromisos</h2>
+        <p class="section-desc">
+          Cada componente de TechPRO ha sido concebido para entregar una reproducción sonora transparente, con graves viscerales y agudos cristalinos.
         </p>
       </div>
-    </footer>
-    <script src="assets/js/imagenes.js"></script>
-  </body>
+
+      <div class="pillars-grid">
+        <!-- Card 1: Sonido Espacial -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </div>
+          <h3>Audio Espacial 360°</h3>
+          <p>
+            Algoritmos biaurales de última generación que sitúan los instrumentos con precisión milimétrica en un escenario tridimensional dinámico.
+          </p>
+        </div>
+
+        <!-- Card 2: Garantía de por Vida -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <polyline points="9 12 11 14 15 10"></polyline>
+            </svg>
+          </div>
+          <h3>Garantía de por Vida</h3>
+          <p>
+            Construcción en aluminio aeronáutico y diademas de titanio flexible certificadas para resistir más de 100.000 torsiones sin fatiga de material.
+          </p>
+        </div>
+
+        <!-- Card 3: Autonomía Extrema -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="16" height="10" rx="2" ry="2"></rect>
+              <line x1="22" y1="11" x2="22" y2="13"></line>
+              <line x1="6" y1="11" x2="6" y2="13"></line>
+              <line x1="10" y1="11" x2="10" y2="13"></line>
+            </svg>
+          </div>
+          <h3>Batería de 45+ Horas</h3>
+          <p>
+            Celdas de iones de litio de alta densidad que garantizan hasta 55 horas de reproducción continua, con carga inalámbrica Qi y USB-C magnético.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Sound Lab Section -->
+  <section id="sound-lab" class="sound-lab-section section-padding">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill" style="background-color: rgba(99, 102, 241, 0.2); border-color: rgba(99, 102, 241, 0.4); color: #a5b4fc;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="18" y1="20" x2="18" y2="10"></line>
+            <line x1="12" y1="20" x2="12" y2="4"></line>
+            <line x1="6" y1="20" x2="6" y2="14"></line>
+          </svg>
+          <span>Acoustic Equalizer & DSP</span>
+        </div>
+        <h2 class="section-title">TechPRO Sound Lab Interactivo</h2>
+        <p class="section-desc">
+          Experimenta cómo el procesador digital DSP de 32-bit de TechPRO adapta dinámicamente las frecuencias y la cancelación de ruido.
+        </p>
+      </div>
+
+      <div class="sound-lab-card">
+        <!-- Visualizer Canvas Left -->
+        <div class="eq-visualizer-box">
+          <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 1.5rem;">
+            <span style="font-family: var(--font-mono); font-size: 1.25rem; color: var(--accent-cyan);">● FREQUENCY RESPONSE 24-BIT</span>
+            <span id="ancStatus" style="font-size: 1.25rem; font-weight: 600; color: var(--primary-violet);">Cancelación Híbrida -42dB Activa</span>
+          </div>
+
+          <div class="eq-bars-container">
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 65%;"></div><span class="eq-freq-label">32Hz</span></div>
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 75%;"></div><span class="eq-freq-label">64Hz</span></div>
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 55%;"></div><span class="eq-freq-label">125Hz</span></div>
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 60%;"></div><span class="eq-freq-label">250Hz</span></div>
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 80%;"></div><span class="eq-freq-label">500Hz</span></div>
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 90%;"></div><span class="eq-freq-label">1kHz</span></div>
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 70%;"></div><span class="eq-freq-label">2kHz</span></div>
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 85%;"></div><span class="eq-freq-label">4kHz</span></div>
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 60%;"></div><span class="eq-freq-label">8kHz</span></div>
+            <div class="eq-bar-wrap"><div class="eq-bar" style="height: 50%;"></div><span class="eq-freq-label">16kHz</span></div>
+          </div>
+
+          <div style="font-size: 1.25rem; color: var(--text-light-muted); text-align: center;">
+            Selecciona un perfil preestablecido para calibrar la firma de sonido en tiempo real.
+          </div>
+        </div>
+
+        <!-- Equalizer Controls Right -->
+        <div class="eq-controls-panel">
+          <h4>Perfiles de Masterización</h4>
+          <p>Cambia entre calibraciones de estudio afinadas por ingenieros de audio profesional:</p>
+
+          <div class="preset-pills-bar">
+            <button class="preset-btn active" data-preset="flat">Flat Studio Reference</button>
+            <button class="preset-btn" data-preset="bass">Deep Bass Reflex</button>
+            <button class="preset-btn" data-preset="vocal">Vocal Presence</button>
+            <button class="preset-btn" data-preset="spatial">Spatial Cinema 360°</button>
+          </div>
+
+          <div class="anc-toggle-box">
+            <div>
+              <strong style="color: #ffffff; font-size: 1.55rem; display: block;">Cancelación Híbrida ANC</strong>
+              <span style="font-size: 1.3rem; color: var(--text-light-muted);">Filtra ruidos de turbinas, trenes y oficinas.</span>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="ancToggle" checked />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Models Catalog Section -->
+  <section id="modelos" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <span>Serie TechPRO Flagship</span>
+        </div>
+        <h2 class="section-title">Elige tus Audífonos TechPRO</h2>
+        <p class="section-desc">
+          Desde ultraportátiles para la ciudad hasta monitores de referencia de estudio para los audiófilos más exigentes.
+        </p>
+      </div>
+
+      <div class="models-grid">
+        <!-- Model X -->
+        <div class="model-card">
+          <div class="model-img-wrap">
+            <img src="assets/img/producto2.png" alt="TechPRO X Auriculares" />
+          </div>
+          <div class="model-card-content">
+            <div>
+              <div class="model-badge-tag">Serie Urbana &bull; Movilidad</div>
+              <h3 class="model-card-title">TechPRO X</h3>
+              <p class="model-card-desc">
+                Diseño compacto y ergonómico con diafragma de grafeno balanceado, ideal para viajes diarios y movilidad sin perder calidad de estudio.
+              </p>
+              <ul class="model-specs-list">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Drivers de Grafeno 35mm</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>ANC Digital -32dB</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>35 Horas de Batería Qi</span>
+                </li>
+              </ul>
+            </div>
+            <div class="model-card-footer">
+              <div class="model-card-price-row">
+                <span style="font-size: 1.3rem; color: var(--text-muted); font-weight: 600;">Precio Oficial</span>
+                <span class="model-card-price">$249</span>
+              </div>
+              <div class="model-card-buttons">
+                <button class="btn-secondary btn-spec-view" data-model="x">Ficha Técnica</button>
+                <button class="btn-primary btn-buy" data-id="techpro-x" data-name="TechPRO X Compact Wireless" data-price="249" data-img="assets/img/producto2.png">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Model Y (Featured) -->
+        <div class="model-card featured">
+          <div class="featured-ribbon">Más Popular</div>
+          <div class="model-img-wrap">
+            <img src="assets/img/productobig.png" alt="TechPRO Y Auriculares" />
+          </div>
+          <div class="model-card-content">
+            <div>
+              <div class="model-badge-tag">Serie Studio Master</div>
+              <h3 class="model-card-title">TechPRO Y</h3>
+              <p class="model-card-desc">
+                El equilibrio absoluto entre comodidad premium y fidelidad acústica con transductores de berilio de 40mm y cancelación adaptativa inteligente.
+              </p>
+              <ul class="model-specs-list">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Transductores de Berilio 40mm</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>ANC Híbrido Adaptativo -42dB</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>45 Horas &bull; LDAC 990kbps</span>
+                </li>
+              </ul>
+            </div>
+            <div class="model-card-footer">
+              <div class="model-card-price-row">
+                <span style="font-size: 1.3rem; color: var(--text-muted); font-weight: 600;">Precio Oficial</span>
+                <span class="model-card-price">$379</span>
+              </div>
+              <div class="model-card-buttons">
+                <button class="btn-secondary btn-spec-view" data-model="y">Ficha Técnica</button>
+                <button class="btn-primary btn-buy" data-id="techpro-y" data-name="TechPRO Y Studio ANC Over-Ear" data-price="379" data-img="assets/img/productobig.png">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Model Z -->
+        <div class="model-card">
+          <div class="model-img-wrap">
+            <img src="assets/img/bannerprincipal.png" alt="TechPRO Z Auriculares" />
+          </div>
+          <div class="model-card-content">
+            <div>
+              <div class="model-badge-tag">Serie Audiophile Flagship</div>
+              <h3 class="model-card-title">TechPRO Z</h3>
+              <p class="model-card-desc">
+                Tecnología Planar Magnetic isodinámica de 50mm con amplificador DAC Sabre integrado y chasis de fibra de carbono aeroespacial.
+              </p>
+              <ul class="model-specs-list">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Drivers Planares Magnéticos 50mm</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Procesador Dual DSP 32-bit</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>55 Horas &bull; Audio Espacial 3D</span>
+                </li>
+              </ul>
+            </div>
+            <div class="model-card-footer">
+              <div class="model-card-price-row">
+                <span style="font-size: 1.3rem; color: var(--text-muted); font-weight: 600;">Precio Oficial</span>
+                <span class="model-card-price">$499</span>
+              </div>
+              <div class="model-card-buttons">
+                <button class="btn-secondary btn-spec-view" data-model="z">Ficha Técnica</button>
+                <button class="btn-primary btn-buy" data-id="techpro-z" data-name="TechPRO Z Audiophile Master" data-price="499" data-img="assets/img/bannerprincipal.png">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Matrix Table -->
+  <section id="comparativa" class="comparison-section section-padding">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+          </svg>
+          <span>Especificaciones Técnicas</span>
+        </div>
+        <h2 class="section-title">Matriz Comparativa de Ingeniería</h2>
+        <p class="section-desc">
+          Compara los atributos técnicos de cada modelo para elegir el dispositivo que mejor responde a tu estilo de escucha.
+        </p>
+      </div>
+
+      <div class="comparison-table-wrap">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Característica</th>
+              <th>TechPRO X</th>
+              <th>TechPRO Y (Studio)</th>
+              <th>TechPRO Z (Audiophile)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Tecnología del Driver</strong></td>
+              <td>Grafeno 35mm</td>
+              <td>Berilio Acústico 40mm</td>
+              <td>Planar Magnetic 50mm</td>
+            </tr>
+            <tr>
+              <td><strong>Respuesta de Frecuencia</strong></td>
+              <td>10Hz – 32.000Hz</td>
+              <td>5Hz – 42.000Hz</td>
+              <td>3Hz – 48.000Hz</td>
+            </tr>
+            <tr>
+              <td><strong>Cancelación Activa (ANC)</strong></td>
+              <td>Digital (-32dB)</td>
+              <td>Híbrida Adaptativa (-42dB)</td>
+              <td>Dual DSP Cuádruple (-46dB)</td>
+            </tr>
+            <tr>
+              <td><strong>Autonomía de Batería</strong></td>
+              <td>35 Horas</td>
+              <td>45 Horas</td>
+              <td>55 Horas</td>
+            </tr>
+            <tr>
+              <td><strong>Codecs Compatibles</strong></td>
+              <td>AAC, SBC, aptX</td>
+              <td>LDAC, aptX HD, AAC</td>
+              <td>LDAC Lossless, aptX Lossless</td>
+            </tr>
+            <tr>
+              <td><strong>DAC & Amplificación</strong></td>
+              <td>Estándar Integrado</td>
+              <td>Hi-Res DSP 24-bit</td>
+              <td>Sabre ESS 32-bit Quad DAC</td>
+            </tr>
+            <tr>
+              <td><strong>Peso y Materiales</strong></td>
+              <td>198g (Polímero y Titanio)</td>
+              <td>245g (Aluminio y Cuero)</td>
+              <td>270g (Carbono y Aluminio)</td>
+            </tr>
+            <tr>
+              <td><strong>Precio Oficial</strong></td>
+              <td><strong style="color: var(--primary-violet); font-size: 1.8rem;">$249 USD</strong></td>
+              <td><strong style="color: var(--primary-violet); font-size: 1.8rem;">$379 USD</strong></td>
+              <td><strong style="color: var(--primary-violet); font-size: 1.8rem;">$499 USD</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIP Community & Newsletter Section -->
+  <section id="comunidad" class="newsletter-section section-padding">
+    <div class="container">
+      <div class="newsletter-card">
+        <div class="section-pill" style="margin-bottom: 2rem;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <span>Acceso Exclusivo Club Audiófilo</span>
+        </div>
+        <h3>Únete a la Comunidad TechPRO</h3>
+        <p>
+          Recibe acceso anticipado a ediciones limitadas, actualizaciones de firmware acústico y un cupón de bienvenida de 15% OFF en tu primera compra.
+        </p>
+
+        <form id="newsletterForm" class="newsletter-form">
+          <input type="email" class="newsletter-input" placeholder="Introduce tu correo electrónico..." required />
+          <button type="submit" class="btn-primary">
+            <span>Inscribirme Ahora</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1 -->
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+              </svg>
+            </div>
+            <span class="brand-title" style="color: #ffffff;">Tech<span>PRO</span></span>
+          </div>
+          <p>
+            Dedicados a la excelencia electroacústica desde 2022. Diseñamos hardware de audio de referencia con los materiales más avanzados del planeta.
+          </p>
+          <div class="top-badge" style="background: rgba(255,255,255,0.08); padding: 0.5rem 1.2rem; border-radius: 999px;">
+            <span>Hi-Res Audio Certified &bull; ISO 9001</span>
+          </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div class="footer-col">
+          <h4>Modelos</h4>
+          <ul class="footer-links">
+            <li><a href="#modelos">TechPRO X (Compact)</a></li>
+            <li><a href="#modelos">TechPRO Y (Studio ANC)</a></li>
+            <li><a href="#modelos">TechPRO Z (Audiophile)</a></li>
+            <li><a href="#comparativa">Tabla de Especificaciones</a></li>
+            <li><a href="#sound-lab">Sound Lab Interactivo</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3 -->
+        <div class="footer-col">
+          <h4>Tecnología</h4>
+          <ul class="footer-links">
+            <li><a href="#caracteristicas">Transductores de Berilio</a></li>
+            <li><a href="#caracteristicas">Cancelación Híbrida -42dB</a></li>
+            <li><a href="#caracteristicas">Codecs LDAC & aptX</a></li>
+            <li><a href="#caracteristicas">Certificación de por Vida</a></li>
+            <li><a href="#comunidad">Actualizaciones de Firmware</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4 -->
+        <div class="footer-col">
+          <h4>Atención al Cliente</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Estado de tu Pedido</a></li>
+            <li><a href="#hero">Garantía & Devoluciones</a></li>
+            <li><a href="#hero">Guía de Calibración Auditiva</a></li>
+            <li><a href="#hero">Soporte Técnico 24/7</a></li>
+            <li><a href="#comunidad">Preguntas Frecuentes</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Copyright Bar -->
+      <div class="copyright-bar">
+        <p>Todos los derechos reservados &copy; 2026 <strong>TechPRO Audio Store</strong>. Development By <span style="color: var(--primary-violet); font-weight: 700;">Jose Manuel Perdomo</span></p>
+        <p>Ingeniería de Audio de Alta Fidelidad &bull; Certificación Global</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Over Cart Drawer -->
+  <aside id="cartDrawer" class="cart-drawer" aria-label="Carrito de Compras">
+    <div class="cart-header">
+      <h3>Tu Carrito</h3>
+      <button id="closeCartBtn" class="drawer-close" aria-label="Cerrar carrito">&times;</button>
+    </div>
+
+    <div id="cartList" class="cart-list">
+      <!-- Se inyecta dinámicamente -->
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total:</span>
+        <span id="cartTotal">$0</span>
+      </div>
+      <button id="checkoutBtn" class="btn-primary" style="width: 100%; justify-content: center;">
+        <span>Finalizar Pedido Seguro</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </button>
+      <p style="font-size: 1.25rem; color: var(--text-muted); text-align: center; margin-top: 1.2rem;">
+        Transacción SSL cifrada de 256-bit con garantía de devolución de 30 días.
+      </p>
+    </div>
+  </aside>
+  <div class="cart-overlay"></div>
+
+  <!-- Technical Spec Modal -->
+  <div id="specModal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <h3 id="modalModelTitle">Modelo</h3>
+          <p id="modalModelTagline" style="font-size: 1.35rem; color: var(--text-muted); margin-top: 0.3rem;">Ficha Técnica</p>
+        </div>
+        <button id="closeSpecModal" class="modal-close-btn" aria-label="Cerrar modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-img-box">
+          <img id="modalModelImg" src="" alt="Audífonos" />
+        </div>
+
+        <div>
+          <div class="modal-specs-table">
+            <div class="modal-spec-row">
+              <span>Transductores:</span>
+              <strong id="modalSpecDriver"></strong>
+            </div>
+            <div class="modal-spec-row">
+              <span>Rango Frecuencia:</span>
+              <strong id="modalSpecResponse"></strong>
+            </div>
+            <div class="modal-spec-row">
+              <span>Cancelación de Ruido:</span>
+              <strong id="modalSpecANC"></strong>
+            </div>
+            <div class="modal-spec-row">
+              <span>Batería:</span>
+              <strong id="modalSpecBattery"></strong>
+            </div>
+            <div class="modal-spec-row">
+              <span>Codecs Hi-Res:</span>
+              <strong id="modalSpecCodecs"></strong>
+            </div>
+            <div class="modal-spec-row">
+              <span>Peso Chasis:</span>
+              <strong id="modalSpecWeight"></strong>
+            </div>
+          </div>
+
+          <h5 style="font-size: 1.45rem; margin-bottom: 1rem; color: var(--text-primary);">Puntos Fuertes de Ingeniería:</h5>
+          <ul id="modalModelFeatures" class="modal-features-list"></ul>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div>
+          <span style="font-size: 1.3rem; color: var(--text-muted); font-weight: 600;">Precio Directo de Fábrica:</span>
+          <div id="modalModelPrice" class="modal-price-val"></div>
+        </div>
+        <button id="modalBuyBtn" class="btn-primary">
+          <span>Añadir a mi Pedido</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Interactive JavaScript Controller -->
+  <script src="assets/js/app.js?v=3.0.0"></script>
+</body>
 </html>
