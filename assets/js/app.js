@@ -59,15 +59,15 @@ function initColorSwitcher() {
   const colorData = {
     obsidian: {
       name: 'Titanium Black Edition',
-      src: 'assets/img/productobig.png'
+      src: 'assets/img/techpro-x.jpg'
     },
     platinum: {
       name: 'Arctic Silver Frost',
-      src: 'assets/img/bannerprincipal.png'
+      src: 'assets/img/techpro-y.jpg'
     },
     cobalt: {
-      name: 'Cyber Violet Edition',
-      src: 'assets/img/producto2.png'
+      name: 'Cyber Cobalt Edition',
+      src: 'assets/img/techpro-z.jpg'
     }
   };
 
@@ -294,7 +294,7 @@ const modelDetails = {
     battery: '35 horas de reproducción continua (Carga rápida Qi)',
     codecs: 'AAC, SBC, Qualcomm aptX Adaptive',
     weight: '198g ultraligero con diadema de titanio',
-    img: 'assets/img/producto2.png',
+    img: 'assets/img/techpro-x.jpg',
     features: [
       'Diafragma de grafeno balanceado por micro-ingeniería',
       'Modo Gaming de ultra baja latencia (38ms)',
@@ -312,7 +312,7 @@ const modelDetails = {
     battery: '45 horas de autonomía (15 min carga = 8 horas)',
     codecs: 'Sony LDAC 990kbps, aptX HD, AAC, SBC',
     weight: '245g con almohadillas Memory Foam de cuero proteico',
-    img: 'assets/img/productobig.png',
+    img: 'assets/img/techpro-y.jpg',
     features: [
       'Almohadillas magnéticas intercambiables con memoria de forma',
       'Matriz de 6 micrófonos beamforming para llamadas cristalinas',
@@ -330,7 +330,7 @@ const modelDetails = {
     battery: '55 horas de reproducción (Carga USB-C PD ultrarrápida)',
     codecs: 'LDAC Lossless, aptX Lossless, LHDC 5.0, AAC',
     weight: '270g con chasis de aluminio aeroespacial y fibra de carbono',
-    img: 'assets/img/bannerprincipal.png',
+    img: 'assets/img/techpro-z.jpg',
     features: [
       'Tecnología Planar Magnetic para distorsión armónica < 0.05%',
       'Audio Espacial Tridimensional con seguimiento dinámico de cabeza',
